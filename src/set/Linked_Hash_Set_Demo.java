@@ -8,7 +8,8 @@ public class Linked_Hash_Set_Demo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+
+		//LinkedHashSet class maintains insertion order.
 		Set<Integer> hastSet = new LinkedHashSet<>();
 		hastSet.add(32);
 		hastSet.add(2);

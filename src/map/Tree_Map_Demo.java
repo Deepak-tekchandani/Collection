@@ -11,9 +11,9 @@ public class Tree_Map_Demo {
 		Map<String, Integer> treeMap = new TreeMap<String, Integer>();
 		
 		treeMap.put("One", 1);
-		treeMap.put("Two", 2);
-		treeMap.put("Three", 3);
 		treeMap.put("Four", 4);
+		treeMap.put("Three", 3);
+		treeMap.put("Two", 2);
 		
 		treeMap.remove("Three");
 		

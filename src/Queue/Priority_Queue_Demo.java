@@ -8,10 +8,12 @@ public class Priority_Queue_Demo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-//		Queue<Integer> priorityQueue = new PriorityQueue<>();
-		Queue<Integer> priorityQueue = new PriorityQueue<>(Comparator.reverseOrder());
-		
+
+		//Priority give in Ascending order
+
+		Queue<Integer> priorityQueue = new PriorityQueue<>();
+		//Queue<Integer> priorityQueue = new PriorityQueue<>(Comparator.reverseOrder());
+
 		priorityQueue.offer(11);
 		priorityQueue.offer(2);
 		priorityQueue.offer(23);
@@ -22,7 +24,13 @@ public class Priority_Queue_Demo {
 		System.out.println(priorityQueue);
 		System.out.println(priorityQueue.poll());
 		System.out.println(priorityQueue);
+		System.out.println(priorityQueue.poll());
+		System.out.println(priorityQueue);
 		System.out.println(priorityQueue.peek());
+		System.out.println(priorityQueue.poll());
+		System.out.println(priorityQueue.poll());
+		System.out.println(priorityQueue.poll());
+		System.out.println(priorityQueue.poll());
 
 	}
  

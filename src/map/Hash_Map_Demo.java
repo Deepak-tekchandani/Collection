@@ -29,7 +29,8 @@ public class Hash_Map_Demo {
 			System.out.println("obj : "+e);
 			System.out.println("Key  : "+e.getKey());
 			System.out.println("value  :"+e.getValue());
-			
+			System.out.println(e.getKey()+" "+e.getValue());
+
 		}
 		
 		for(String key : number.keySet()) {
@@ -39,7 +40,7 @@ public class Hash_Map_Demo {
 		for(Integer value : number.values()) {
 			System.out.println(value);
 		}
-		
+
 		System.out.println(number.containsValue(3));
 		System.out.println(number.isEmpty());
 
