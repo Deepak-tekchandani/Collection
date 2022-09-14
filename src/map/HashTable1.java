@@ -14,7 +14,8 @@ public class HashTable1{
         map.putIfAbsent(104,"Gaurav");
         System.out.println("Updated Map: "+map);
         //Returns the current value, as the specified pair already exist
-        map.putIfAbsent(101,"Vijay");
+        map.putIfAbsent(101,"deep");
+        map.put(106,"six");
         System.out.println("Updated Map: "+map);
 
         System.out.println(map.getOrDefault(101, "Not Found"));

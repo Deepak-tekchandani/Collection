@@ -10,14 +10,14 @@ public class LinkedList_Demo {
 		// TODO Auto-generated method stub
 		
 
-		List<String> arrayList = new LinkedList<>();
+		List<String> linkList = new LinkedList<>();
 		
 		//size : n for 10 elemants
 				//size : n + n/2 + 1; more than 10 elemants; auto copy old array to new array;
-		
-		arrayList.add("deepak");
-		
-		ArrayList<Integer> list2 = new ArrayList<>();
+
+		linkList.add("deepak");
+
+		LinkedList<Integer> list2 = new LinkedList<>();
 		list2.add(1);
 		list2.add(2);
 		list2.add(3);
@@ -32,8 +32,8 @@ public class LinkedList_Demo {
 		list2.add(3, 7);
 		
 		System.out.println(list2);
-		
-		ArrayList<Integer> list3 = new ArrayList<>();
+
+		LinkedList<Integer> list3 = new LinkedList<>();
 		list3.add(11);
 		list3.add(22);
 		
@@ -61,8 +61,25 @@ public class LinkedList_Demo {
 		
 		list3.clear();
 		System.out.println("clear the list3 : "+list3);
-		
+
+		System.out.println("list2 : "+list2);
+
+		list2.addFirst(33);
+		list2.addLast(55);
+		System.out.println("list2 after add first and last : "+list2);
+
+		//remove
+		list2.removeFirst();
+		list2.removeLast();
+		System.out.println("list2 after remove first and last : "+list2);
+
+		list2.removeFirstOccurrence(2);
+		list2.removeLastOccurrence(4);
+		System.out.println("list2 after removeOccurrence first and last : "+list2);
+
+		System.out.println("list2 Hash code : "+list2.hashCode());
 		//when we add/remove the elemant then shift the value and There the time complexity is O(n) as well;
+		//in LinkedList has no_shifting
 		
 
 	}

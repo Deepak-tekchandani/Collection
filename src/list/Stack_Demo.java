@@ -19,8 +19,11 @@ public class Stack_Demo {
 		System.out.println(animals.peek());
 		
 		animals.pop();
+		System.out.println(animals);
 		
 		System.out.println(animals.peek());
+		animals.pop();
+		System.out.println(animals);
 
 	}
 

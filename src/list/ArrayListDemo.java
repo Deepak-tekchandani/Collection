@@ -56,7 +56,7 @@ public class ArrayListDemo {
 
 		System.out.println(list3.contains(111)); // elemant is present in the list
 
-		System.out.println(list3.get(5)); // find/get the value
+		System.out.println(list3.get(5)); // find/get the value by index
 
 		list3.clear();
 		System.out.println("clear the list3 : "+list3);
